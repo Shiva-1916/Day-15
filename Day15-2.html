@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+
+.first_div {
+            background-color: blue;
+            animation-name: first;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            bottom: 80%;
+           
+        }
+
+        .second_div {
+            background-color: red;
+            animation-name: first;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            bottom: 80%;
+            left: 8%;
+            animation-direction: reverse;
+        }
+        .third_div {
+            background-color: yellow;
+            animation-name: first;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            bottom: 80%;
+            left: 14%;
+        }
+
+        .fourth_div {
+            background-color: green;
+            animation-name: first;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            bottom: 80%;
+            left: 20%;
+            animation-direction: reverse;
+            
+        }
+
+
+        @keyframes first {
+            0% {
+               transform: translateY(10px);
+            }
+           50% {
+                transform: translateY(50px);
+            }
+
+            }
+ div {
+    height: 25px;
+    width: 25px;
+    border-radius: 90%;
+    display: inline-block;
+ }
+</style>
+<body>
+
+    <h1> <strong style="color: blue;">Google </strong> <strong style="color: red;">Assistance </strong> <strong style="color: green;">Animation</strong> :</h1>
+    <div class="first_div"></div>
+    <div class="second_div"></div>
+    <div class="third_div"></div>
+    <div class="fourth_div"></div>
+
+
+
+</body>
+</html>
